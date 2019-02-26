@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//RU">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="css/kebab.css">
+  
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=690ad9a2-d10c-4672-a773-afbddaeceb7d" type="text/javascript"></script>
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+    <script src="geoobjects_menu.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+  <title>Пример веб-страницы</title>
+ <style>
+       
+    </style>
+</head>
+<body>
+  <div class="map_nav">
+    <div id="map"></div>
+    <div style="padding: 5px;">
+        <nav class="nav">
+          <input class="nav__check" type="checkbox" id="showmenu"/>
+          <label class="nav__showmenu" for="showmenu">&#9776;</label>
+          <label class="nav__back" for="showmenu"></label>
+            <div class="menu">
+                        <label>
+                            <input type='checkbox' id='red' class="menu__item">Star Kebab</input>
+                        </label>
+                        <label>
+                            <input type='checkbox' id='green' class="menu__item">Twister</input></label>
+                        <label>
+                            <input type='checkbox' id='yellow' class="menu__item">Mr.Kebab</input></label>
+            </div>
+        <div class="point">
+            <input type='checkbox' id='point' checked=true>Точки</input><br>
+        </div>
+    </nav>
+  </div>
+  <container class="con-1">
+      <div class="block_2">
+       <img src="images/sk.jpg">
+        
+      </div>
+      <div class="block_3">
+          <div class="men">
+              <h2>Star Kebab</h2>
+              <h3>Тариф доставка:</h3>
+              <p>По Кишиневу - <strong>25 леев</strong></p>
+              <p>От 300 леев - доставка <strong>БЕСПЛАТНАЯ</strong></p>
+          </div>
+          <div class="men">
+              <h3>Доставка 24/24:</h3>
+              <p>(+373 22)<strong>855-717</strong></p>
+              <p>(+373)<strong>603 777 33</strong></p>
+              <p>(+373)<strong>784 777 33</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
+          </div>
+      </div>
+</container>
+<container class="con-1">
+      <div class="block_2">
+       <img src="images/tk.jpg">
+        
+      </div>
+      <div class="block_3">
+          <div class="men">
+              <h2>Twister Kebap</h2>
+              <h3>Адрес:</h3>
+              <p>Bd.Moscova 6</p>
+              
+          </div>
+          <div class="men">
+              <h3>Открыто 24/24:</h3>
+              <p>(+373 22)<strong>000-001</strong></p>
+              <p>(+373)<strong>796 000 01</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
+              
+          </div>
+      </div>
+</container>
+<container class="con-1">
+      <div class="block_2">
+       <img src="images/mk.jpg">
+        
+      </div>
+      <div class="block_3">
+          <div class="men">
+              <h2> Mr. Kebab</h2>
+              <h3>Адрес:</h3>
+              <p>Independentei 4/3</p>
+              
+          </div>
+          <div class="men">
+              <h3>Открыто 8:00 до 2:00</h3>
+              <p>(+373)<strong>675 599 99</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
+              
+          </div>
+      </div>
+</container>
+ </body>
+</html>
