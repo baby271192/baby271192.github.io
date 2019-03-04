@@ -1,99 +1,166 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//RU">
+<!DOCTYPE HTML>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" type="text/css" href="css/kebab.css">
-  
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=690ad9a2-d10c-4672-a773-afbddaeceb7d" type="text/javascript"></script>
-    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
-    <script src="geoobjects_menu.js" type="text/javascript"></script>
-  <script type="text/javascript" src="js/map.js"></script>
-  <title>Пример веб-страницы</title>
- <style>
-       
-    </style>
-</head>
-<body>
-  <div id="radiobells_container"><a href="https://www.radiobells.com/" rel="nofollow" id="RP_link">Онлайн радио</a> #radiobells_script_hash</div><link href="https://www.radiobells.com/script/style.css" type="text/css" rel="stylesheet" /><script type="text/javascript">var rad_backcolor="#00adad"; var rad_logo = "black"; var rad_autoplay = true; var rad_width = "responsive"; var rad_width_px = 330;var rad_stations =[['http://air2.radiorecord.ru:805/yo_320','Record Black','yofm']];</script><script type="text/javascript" src="https://www.radiobells.com/script/v2_1.js" charset="UTF-8"></script>
-  <div class="map_nav">
-    <div id="map"></div>
-    <div style="padding: 5px;">
-        <nav class="nav">
-          <input class="nav__check" type="checkbox" id="showmenu"/>
-          <label class="nav__showmenu" for="showmenu">&#9776;</label>
-          <label class="nav__back" for="showmenu"></label>
-            <div class="menu">
-                        <label>
-                            <input type='checkbox' id='red' class="menu__item">Star Kebab</input>
-                        </label>
-                        <label>
-                            <input type='checkbox' id='green' class="menu__item">Twister</input></label>
-                        <label>
-                            <input type='checkbox' id='yellow' class="menu__item">Mr.Kebab</input></label>
+  <head>
+    <title>Multiverse by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=690ad9a2-d10c-4672-a773-afbddaeceb7d" type="text/javascript"></script>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>   
+    <script type="text/javascript" src="js/map.js"></script>
+
+  </head>
+  <body>
+
+
+
+         <!-- Wrapper -->
+      <div id="wrapper">
+         <div id="map"></div>
+
+
+
+
+
+
+        <!-- Header -->
+          <header id="header">
+              <div class="dropup">
+                <button class="dropbtn">Фильтр</button>
+                <div class="dropup-content">
+                  <label> <input type='checkbox' id='red' class="menu__item"><p>Star Kebab</p></input></label>
+                  <label><input type='checkbox' id='green' class="menu__item"><p>Twister</p></input></label><label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <label> <input type='checkbox' id='yellow' class="menu__item"><p>Mr.Kebab</p></input></label>
+                  <input type='checkbox' id='point' checked=true></input><br>
+                </div>
+              </div>
+            <nav>
+              <ul>
+                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
+              </ul>
+            </nav>
+          </header>
+
+
+
+
+
+
+
+        <!-- Main -->
+
+          
+          <div id="main">
+
+
+            <article class="thumb">
+              <a href="kebab.html" class="image"><img src="images/sk.jpg" alt="" /></a>
+            </article>
+            <article class="thumb">
+              <container class="image">
+                
+                  <h2>Star Kebab</h2>
+                <div class="bl1">
+                          <h3>Тариф доставка:</h3>
+                          <p>По Кишиневу - <strong>25 леев</strong></p>
+                          <p>От 300 леев - доставка <strong>БЕСПЛАТНАЯ</strong></p>
+                        </div>
+                        <div class="bl2">
+                          <h3>Доставка 24/24:</h3>
+                         <p>(+373)<strong>603 777 33</strong></p>
+                         <p>(+373)<strong>784 777 33</strong></p>
+                    </div>
+                    
+                        <a href="#">Подробнее</a></p>
+                 
+              </container>
+            </article>
+            <article class="thumb ">
+              <a href="#" class="image"><img src="images/tk.jpg" alt="" /></a>
+            
+            </article>
+            <article class="thumb">
+              <container class="image"></container>
+            </article>
+            <article class="thumb">
+              <a href="#" class="image"><img src="images/mk.jpg" alt="" /></a>
+            
+            </article>
+            <article class="thumb">
+              <container class="image"></container>
+            </article>
+          </div>
+
+
+
+
+
+
+
+        <!-- Footer -->
+          <footer id="footer" class="panel">
+            <div class="inner split">
+              <div>
+                <section>
+                  <h2>Всё лучшее для Лучших!</h2>
+                  <p>Пустой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст устой текст</p>
+                </section>
+                <section>
+                  <h2>Follow me on ...</h2>
+                  <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-vk"><span class="label">vk</span></a></li>
+                  </ul>
+                </section>
+                <p class="copyright">
+                  &copy; Unttled. Design: <a href="#">TVCenter</a>.
+                </p>
+              </div>
+              <div>
+                <section>
+                  <h2>Get in touch</h2>
+                  <form method="post" action="#">
+                    <div class="field half first">
+                      <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="field half">
+                      <input type="text" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="field">
+                      <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <ul class="actions">
+                      <li><input type="submit" value="Send" class="special" /></li>
+                      <li><input type="reset" value="Reset" /></li>
+                    </ul>
+                  </form>
+                </section>
+              </div>
             </div>
-        <div class="point">
-            <input type='checkbox' id='point' checked=true>Точки</input><br>
-        </div>
-    </nav>
-  </div>
-  <container class="con-1">
-      <div class="block_2">
-       <img src="images/sk.jpg">
-        
+          </footer>
+
       </div>
-      <div class="block_3">
-          <div class="men">
-              <h2>Star Kebab</h2>
-              <h3>Тариф доставка:</h3>
-              <p>По Кишиневу - <strong>25 леев</strong></p>
-              <p>От 300 леев - доставка <strong>БЕСПЛАТНАЯ</strong></p>
-          </div>
-          <div class="men">
-              <h3>Доставка 24/24:</h3>
-              <p>(+373 22)<strong>855-717</strong></p>
-              <p>(+373)<strong>603 777 33</strong></p>
-              <p>(+373)<strong>784 777 33</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
-          </div>
-      </div>
-</container>
-<container class="con-1">
-      <div class="block_2">
-       <img src="images/tk.jpg">
-        
-      </div>
-      <div class="block_3">
-          <div class="men">
-              <h2>Twister Kebap</h2>
-              <h3>Адрес:</h3>
-              <p>Bd.Moscova 6</p>
-              
-          </div>
-          <div class="men">
-              <h3>Открыто 24/24:</h3>
-              <p>(+373 22)<strong>000-001</strong></p>
-              <p>(+373)<strong>796 000 01</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
-              
-          </div>
-      </div>
-</container>
-<container class="con-1">
-      <div class="block_2">
-       <img src="images/mk.jpg">
-        
-      </div>
-      <div class="block_3">
-          <div class="men">
-              <h2> Mr. Kebab</h2>
-              <h3>Адрес:</h3>
-              <p>Independentei 4/3</p>
-              
-          </div>
-          <div class="men">
-              <h3>Открыто 8:00 до 2:00</h3>
-              <p>(+373)<strong>675 599 99</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Подробнее</a></p>
-              
-          </div>
-      </div>
-</container>
- </body>
+
+
+
+
+
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.poptrox.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/scriptt.js"></script>
+      <script src="assets/js/plugin.js"></script>
+  </body>
 </html>
