@@ -8,11 +8,19 @@
 		<link rel="stylesheet" href="assets/css/index.css" />
 		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>   
 		<script type="text/javascript" src="js/map.js"></script>
-
+		<link rel="stylesheet" href="css/bootstrap.css" />
 
 	</head>
 	<body>
+		<script type="text/javascript">
+			$(function () {
+				$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+				});
 
+
+
+
+		</script>
 
 				 <!-- Wrapper -->
 			<div id="wrapper">
@@ -26,7 +34,8 @@
 				<!-- Header -->
 					<header id="header">
 							<div class="dropup">
-							  <button class="dropbtn">Фильтр</button>
+								<input type="checkbox" id="hd-4" class="hide"/>
+							  <label for="hd-4">ФИЛЬТР</label>
 							  <div class="dropup-content">
 							    <label> <input type='checkbox' id='red' class="menu__item" ><p>Star Kebab</p></input></label>
 							    <label><input type='checkbox' id='green' class="menu__item" ><p>Twister</p></input></label><label>
@@ -50,64 +59,52 @@
 
 				<!-- Main -->
 
-					
-					<div id="main">
 
+								<div class="row">
+								  <div class="col-md-12">
 
-						<article id="blog" class="thumb">
-							<a href="kebab.html" class="image"><img src="images/sk.jpg" alt="" /></a>
-						</article>
-						<article class="thumb">
-							<container class="image">
-								<div class="h1"><h1>Star Kebab</h1></div>
-								<div class="h2"><h2>Круглосуточная доставка:(+373 22) 855 717</h2></div>
-									
-								<div id="container">
-  									<a href="#" class="button"><label for="red">Добавить</label></a>
-  									<a href="#" class="button">Подробнее</a>
+								      <figure class="col-md-4">
+								      <div class="hovereffect">
+								          <img alt="picture" src="images/sk.jpg"
+								            class="img-fluid" />
+								            <div class="overlay">
+								            	<h2>C 8:00 - 23:00</h2>
+								            	<h3>+(373)69 626 169</h3>
+           										<a class="info" href="#" >Подробнее</a>
+       										</div>
+       									</div>
+								      </figure>
+
+								      <figure class="col-md-4">
+								        <div class="hovereffect">
+								          <img alt="picture" src="images/tk.jpg"
+								            class="img-fluid" />
+								            <div class="overlay">
+								            	<h2>C 8:00 - 23:00</h2>
+								            	<h3>+(373)69 626 169</h3>
+           										<a class="info" href="#">Подробнее</a>
+       										</div>
+       									</div>
+								     
+								      </figure>
+
+								      <figure class="col-md-4">
+								        <div class="hovereffect">
+								          <img alt="picture" src="images/mk.jpg"
+								            class="img-fluid" />
+								            <div class="overlay">
+								            	<h2>C 8:00 - 23:00</h2>
+								            	<h3>+(373)69 626 169</h3>
+           										<a class="info" href="#">Подробнее</a>
+           										
+       										</div>
+       									</div>
+								      </figure>
+
+								      
+								  </div>
+
 								</div>
-  									
-							</container>
-						</article>
-						<article id="blog" class="thumb ">
-							<a href="#" class="image"><img src="images/tk.jpg" alt="" /></a>
-						
-						</article>
-						<article class="thumb">
-							<container class="image">
-								<div class="h1"><h1>Twister</h1></div>
-								<div class="h2"><h2>Круглосуточная доставка:(+373 22) 855 717</h2></div>
-									
-								<div id="container">
-  									<a href="#" class="button"><label for="green">Добавить</label></a>
-  									<a href="#" class="button">Подробнее</a>
-								</div>
-  									
-							</container>
-						</article>
-						<article id="blog" class="thumb">
-							<a href="#" class="image"><img src="images/mk.jpg" alt="" /></a>
-						
-						</article>
-						<article class="thumb">
-							<container class="image">
-								<div class="h1"><h1>Mr.Kebab</h1></div>
-								<div class="h2"><h2>Круглосуточная доставка:(+373 22) 855 717</h2></div>
-									
-								<div id="container">
-  									<a href="#" class="button"><label for="yellow">Добавить</label></a>
-  									<a href="#" class="button">Подробнее</a>
-								</div>
-  									
-							</container>
-						</article>
-					</div>
-
-
-
-
-
-
 
 				<!-- Footer -->
 					<footer id="footer" class="panel">
@@ -161,6 +158,7 @@
 
 
 		<!-- Scripts -->
+		<script src="js/bootstrap.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
