@@ -2161,18 +2161,18 @@ label:checked{
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
-  -webkit-transition: all ease-in-out 0.8s;
-  transition: all ease-in-out 0.8s;
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 
 .hovereffect:hover h2 {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 .hovereffect h3 {
   text-transform: uppercase;
@@ -2185,18 +2185,18 @@ label:checked{
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
   transform: translateY(-200px);
-  -webkit-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5;
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .hovereffect:hover h3 {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .hovereffect a.info {
@@ -2211,8 +2211,8 @@ label:checked{
   transform: translateY(-300px);
   color: #000;
   border: 1px solid #000;
-  -webkit-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
 }
 
 .hovereffect a.info:hover {
@@ -2226,8 +2226,8 @@ label:checked{
   box-shadow: 0 0 5px #000;
   color: #000;
   border: 1px solid #000;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 
 

@@ -218,8 +218,7 @@
 }
 
   a.button {
-    margin-left: 42%;
-    margin-top: 50%;
+    width: 100%;
     position: absolute;
     font-family: Helvetica, arial, serif;
     color:#fff;
@@ -261,7 +260,7 @@
         width: 100%;
         height: 100%;
     }
-    .buttons{
+    #buttons{
         width: 50%;
         height: 50%;
     }
