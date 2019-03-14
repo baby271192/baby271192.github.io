@@ -1784,8 +1784,7 @@
 
 
 #map {
-     height: 400px;
-     margin-top: 50px;
+     height:800px;
      border: 3px solid silver;
      margin-left: auto;
      margin-right: auto;
@@ -1980,7 +1979,7 @@ position: fixed;
 	color: white;
   display: none;
   position: absolute;
-  bottom: 70px;
+  bottom: 65px;
   background-color: #27282b;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -1988,7 +1987,7 @@ position: fixed;
 }
 .dropup-content p{
 	text-align: left;
-	margin-top: -38px;
+	margin-top: -42px;
 	margin-left: 30px;
 }
 .menu__item{
@@ -2243,4 +2242,39 @@ label:checked{
 
 
 
+label input[type=checkbox] {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
 
+label:hover input[type=checkbox], input[type=checkbox]:checked{
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.h12{
+	text-align: center;
+	margin-top: 80px;
+	font-family: Snell Roundhand, cursive;
+}
+
+
+.rating {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 50px;
+color: gold;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:before,
+.rating > span:before ~ span:hover {
+   content: "\2605";
+   position: absolute;
+   color: gold;
+}
