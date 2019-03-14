@@ -2252,15 +2252,11 @@ label:hover input[type=checkbox], input[type=checkbox]:checked{
   transition: opacity 0.3s linear;
 }
 
-.h12{
-	text-align: center;
-	margin-top: 80px;
-	font-family: Snell Roundhand, cursive;
-}
 
 
 .rating {
 	text-align: center;
+	margin-top: 70px;
 	margin-bottom: 50px;
 	font-size: 50px;
 color: gold;
