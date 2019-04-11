@@ -1,0 +1,755 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+p{
+	font-size: 16px;
+	color: #505050;
+}
+li {
+	font-size: 15px;
+	padding: 10px;
+    list-style-type: none; 
+  }
+ul li{
+   	display: inline;
+   	font-size: 15px;
+  }
+
+table, th, td {
+	padding: 10px;
+	border-style:solid;
+	border-width:1px;
+	border-color: #e7e7e7;
+}
+
+
+th {
+
+background-color:#f7f7f7;
+}
+
+
+
+
+.block1{
+
+	width: 100%;
+	padding-top: 90px; padding-bottom: 90px;
+	color: white;
+	text-align: center;
+	background-color:#262626; 
+}
+
+
+
+
+.block1 h1{
+	margin-bottom: 25px;
+		font-size: 30px;
+}
+
+
+
+
+
+.row{
+	margin-top: 82px;
+}
+
+
+
+
+
+.row .col-sm{
+	text-align: center;
+}
+
+
+
+
+.row .col-sm h4{
+	margin-top: 35px;
+	font-size: 20px;
+}
+
+
+
+
+.row .col-sm p{
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+
+
+/*****HEADER*****/
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.carousel-caption{
+	margin-bottom: 170px;
+}
+
+
+.logo{
+	margin-top: -30px;
+	position: absolute;
+}
+
+.ul{
+	margin-bottom: 30px;
+}
+
+
+.ul li{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+.li2{
+	color: #ff0036; 
+}
+
+
+.p{
+	padding: 15px 35px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 170px;
+	height: 50px;
+	background: #ff0036;
+}
+
+
+.ull li{
+	margin-left: 40px;
+}
+
+
+.p1{
+	padding: 15px 35px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 170px;
+	height: 50px;
+	background: #131313;
+}
+
+
+
+.leadd{
+	margin-bottom: 50px;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	color: #5c5c5c;
+}
+
+
+
+
+
+.container .row{
+	width: 100%;
+}
+
+
+
+
+
+
+
+.block2{
+	margin-top: 90px;
+	background-color: #262626;
+	padding-bottom: 95px;
+
+}
+
+
+
+.border2{
+	text-align: center;
+	margin-top: -14px;
+
+}
+
+
+
+
+
+
+
+
+/*****ABOUT CREATIVIA*****/
+
+
+.bloc1{
+	margin-top: 98px;
+	text-align: center;
+}
+
+
+
+.bloc1 h1{
+	display: inline;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+
+
+.lolo{
+	color: #ff0036;
+}
+
+
+
+.pp{
+	margin-top: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+.pp p{
+	display: inline;
+}
+
+
+
+.red{
+	color: #ff0036;
+}
+
+
+
+.th{
+	padding-left: 30px;
+	color: #ff0036;
+	width: 100%;
+}
+
+
+
+
+.thh{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+
+
+.tth{
+
+	padding-left: 30px;
+	width: 100%;
+}
+
+
+
+
+.tabel{
+	margin-top: 10px;
+
+}
+
+
+
+.tabel th{
+		font-size: 18px;
+		font-weight: normal;
+}
+
+
+
+.coll p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+.borderr {
+	margin-top:95px ;
+	text-align: center;
+}
+
+
+
+
+
+/*******About ALL****/
+
+
+
+
+
+
+.illustration{
+	color: #ff0036;
+}
+
+
+
+
+
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.child {
+  flex: 1 0 21%; /* explanation below */
+  height: 300px;
+}
+
+
+
+
+	
+
+
+.t{
+
+	width: 100%;
+}
+
+
+
+
+.tab{
+	margin-top: 150px;
+
+}
+
+
+
+
+.tr{
+	margin-top: 25px;
+}
+
+
+
+
+.tab th{
+
+		font-size: 16.5px;
+		background-color: #ff0036;
+		color: white;
+}
+
+
+
+
+.tab img{
+	background-color: white;
+margin-bottom: 3px;
+margin-left: 3px;
+}
+
+
+
+
+.ta{
+	text-align: right;
+	float: right;
+	margin-top: 25px;
+	width: 100%;
+}
+
+
+
+
+.taa{
+	text-align: left;
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+}
+
+
+
+
+
+.u li{
+	margin-left: -80px;
+}
+
+
+
+
+.ppp{
+
+	margin-top: -140px;
+	position: absolute;
+	padding: 15px 35px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 170px;
+	height: 50px;
+	background: #393939;
+	color:white;
+}
+
+
+
+
+
+
+/********WHY CREATIVIA******/
+
+
+
+
+
+
+
+
+
+
+.first{
+	color: white;
+}
+
+
+
+
+.col{
+	color: white;
+}
+
+
+
+
+
+.col .pp p{
+	color: white;
+}
+
+
+
+
+
+.im{
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+				/*******OUR SKILLS****/
+
+
+
+
+
+
+.circle-wrap {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+
+
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+
+
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+
+
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #ff0036;
+}
+
+
+
+
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(150deg);
+}
+ 
+
+
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+
+
+
+
+.ble{
+		text-align: center;
+}
+
+
+
+
+.blea1{
+	padding: 0 25px;
+	display: inline-block;
+
+}
+
+
+
+
+
+
+.circle-wrapp {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+
+
+
+
+.circle-wrapp .circlee .maskk,
+.circle-wrapp .circlee .filll {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle-wrapp .circlee .maskk {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrapp .circlee .maskk .filll {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #ff0036;
+}
+.circle-wrapp .circlee .maskk.fulll,
+.circle-wrapp .circlee .filll {
+  animation: fill ease-in-out 3s;
+  transform: rotate(150deg);
+}
+ 
+@keyframes filll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}
+.circle-wrapp .inside-circlee {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+
+
+.list-group-item{
+	color: black;
+}
+
+				
+
+
+
+				/********OUR SERVICES*******/
+
+.row  .col-6{
+	margin-top: 50px;
+}
+
+
+
+
+/*******PLANS BESTSELLER*******/
+
+
+
+
+
+
+
+
+/********OUR BLOG*****/
+
+
+
+.our_blog{
+	text-align: center; padding: 85px 0;
+}
+
+.row .col-5{
+	text-align: right;
+}
+
+.row .col-7 p{
+	padding: 27px 0; font-size: 15px;
+}
+.row .col-7 a{
+	padding: 10px 15px; background-color: #ff0036; color: white;
+}
+
+
+
+
+
+
+
+
+				/******** FOLLOW CREATIVIA******/
+
+
+
+.h1_bloc1{
+	color: white;
+}
+
+
+.minBlock{
+	padding-top: 90px;
+}
+
+
+
+.Follow{
+	display: inline-block;
+	padding: 35px 0;
+}
+
+
+
+
+.Follow img{
+padding: 20px;
+}
+
+
+
+
+.Follow div{
+	display: block;
+	float: left;
+
+}
+
+
+
+
+.Follow p{
+		color: white;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.b {
+  display: flex;
+  flex-wrap: wrap;    
+}
+
+
+.b-inner {
+  height: 37vh;  
+  width: 48%;
+  text-align: center;
+}
+.b-inner img{
+	
+}
+
+@media screen and (max-width: 990px) {
+    .b-inner {
+    text-align: left;
+      width: 100%; 
+    }
+}
+
+
+
+

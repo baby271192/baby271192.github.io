@@ -1,0 +1,2 @@
+[2019-04-10 17:37:41] layer "Google +": Expected end of input but "+" found.
+[2019-04-10 17:22:51] layer "Google +": Expected end of input but "+" found.
