@@ -346,7 +346,7 @@ section.single-page h1 {
 	font-size: 2.25em; /* 36px */
 }
 #feature {
-	background: url("../img/yellow.png") repeat-x 0 0;
+	background-color: #ffdd33 repeat-x 0 0;
 	height: 406px;
 	z-index: 500;
 	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
@@ -428,6 +428,10 @@ section#portfolio .align {
 
 section#services {
 	background: url("../images/expert.jpg") no-repeat fixed;
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
 	padding-bottom: 9.5em;
 }
 #services h1 {
@@ -1089,7 +1093,7 @@ footer p {
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 95vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -1124,3 +1128,204 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+
+
+
+
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul li {
+  width: 65px;
+  height: 65px;  
+  margin: 0 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  float: left;
+  position: relative; 
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa {
+  color: white;
+  line-height: 65px;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+
+
+/*facebook*/
+.wrapper ul li.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li.facebook:hover:before{
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+}
+
+/*twitter*/
+.wrapper ul li.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li.twitter:hover:before{
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+}
+
+/* instagram */
+.wrapper ul li.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li.instagram:hover:before{
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+}
+
+/* google */
+.wrapper ul li.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+
+.wrapper ul li.google:hover:before{
+   color: #dd4b39;
+   text-shadow: 0 0 15px #dd4b39;
+}
+
+
+/* whatsapp */
+
+.wrapper ul li.whatsapp {
+
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+.wrapper ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li.whatsapp:hover:before{
+   color: #4dc247;
+   text-shadow: 0 0 15px #4dc247;
+}
+footer .wrapper{
+	display: none;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1000px){
+
+	header .container{
+		display: none;
+	}
+	footer .wrapper{
+		display: block;
+
+	}
+footer .wrapper ul {
+  list-style: none;
+}	
+footer .wrapper{
+	width: 100%;
+}
+
+	footer .wrapper ul li {
+  width: 32.5px;
+  height: 32.5px;  
+  margin: 0 7.5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  float: right;
+  position: relative; 
+  transition: all 0.5s ease;
+}
+.wrapper ul li .fa {
+  color: white;
+  line-height: 32.5px;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+}
+
+/* media queries */
+

@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo.png">
     <!-- Styles -->
+    <link rel="stylesheet" href="fm.revealator.jquery.css">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/fm.revealator.jquery.js"></script>
 
     <style>
     body {
@@ -68,15 +72,15 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <div class="row" style="margin-top: 45%;">
-            <div class="span12">
-              <ul class="icon">
-                <li><a href="#" target="_blank"><i class="icon-pinterest-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-facebook-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-twitter-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-gplus-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-skype-circled"></i></a></li>
-              </ul>
+        <div class="row" style="margin-top: 70%;">
+            <div class="wrapper">
+  <ul>
+    <li class="facebook revealator-slideright revealator-delay2 revealator-once"><i class="fa fa-facebook " aria-hidden="true"></i></li>
+    <li class="twitter revealator-slideright revealator-delay3 revealator-once"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+    <li class="instagram revealator-slideup revealator-once revealator-delay3"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+    <li class="google revealator-slideleft revealator-delay2 revealator-once"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+    <li class="whatsapp revealator-slideleft revealator-delay3 revealator-once"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+  </ul>
             </div>
           </div>
       </div>
@@ -84,9 +88,9 @@
   </div>
 </header>
     <!--******************** Feature ********************-->
-    <div class="scrollblock">
+    <div class="scrollblock " style="background-color: #ffdd33;">
       <section id="feature">
-        <div class="container">
+        <div class="container revealator-slideleft revealator-delay3 revealator-once">
           <div class="row">
             <div class="span12">
               <article>
@@ -106,10 +110,10 @@
     <!--******************** Portfolio Section ********************-->
     <section id="portfolio" class="single-page scrollblock">
       <div class="container">
-        <div class="align"><img src="images/class.png" alt=""></i></div>
-        <h1 id="folio-headline">Наши услуги</h1>
+        <div class="align revealator-rotateright revealator-delay1 revealator-once"><img src="images/class.png" alt=""></i></div>
+        <h1 id="folio-headline">Почему Яндекс</h1>
         <div class="row">
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay1 revealator-once">
             <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="images/wait.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -123,7 +127,7 @@
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay2 revealator-once">
             <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="images/best.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -136,7 +140,7 @@
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay3 revealator-once">
             <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="images/find.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -153,7 +157,7 @@
         <!-- /.row -->
         
         <div class="row">
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay1 revealator-once">
             <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="images/scidka.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -166,7 +170,7 @@
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay2 revealator-once">
             <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="images/rait.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -179,7 +183,7 @@
             <!-- /.inside -->
           </div>
           <!-- /.span4 -->
-          <div class="span4">
+          <div class="span4 revealator-slideup revealator-delay3 revealator-once">
             <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="images/offers.png" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -201,29 +205,29 @@
     <!--******************** Services Section ********************-->
     <section id="services" class="single-page scrollblock">
       <div class="container">
-        <div class="align"><img src="images/uslugi.png" alt=""></div>
+        <div class="align revealator-zoomin revealator-delay1 revealator-once"><img src="images/uslugi.png" alt=""></div>
         <h1 style="color: white;">Наши Услуги</h1>
         <!-- Four columns -->
         <div class="row">
-          <div class="span3">
+          <div class="span3 revealator-zoomout revealator-delay1 revealator-once">
             <div class="align"><img src="images/taxiti.jpg" alt=""></div>
             <h2>Услуги Taxi по стране</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
           <!-- /.span3 -->
-          <div class="span3">
+          <div class="span3 revealator-zoomout revealator-delay2 revealator-once">
             <div class="align"><img src="images/courier.jpg" alt=""></div>
             <h2>Доставка посылок и курьерская доставка</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
           <!-- /.span3 -->
-          <div class="span3">
+          <div class="span3 revealator-zoomout revealator-delay3 revealator-once">
             <div class="align"><img src="images/word.jpg" alt=""></div>
             <h2>Услуги Taxi с выездом за границу</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
           <!-- /.span3 -->
-          <div class="span3">
+          <div class="span3 revealator-zoomout revealator-delay4 revealator-once">
             <div class="align"><img src="images/www.jpg" alt=""></div>
             <h2>Грузоперевозки</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -240,102 +244,89 @@
     <!--******************** News Section ********************-->
     <section id="news" class="single-page scrollblock" >
       <div class="container">
-        <div class="align"><img src="images/news.png" alt=""></div>
+        <div class="align revealator-zoomout revealator-delay1 revealator-once"><img src="images/news.png" alt=""></div>
         <h1>Новости</h1>
         <!-- Three columns -->
         <div class="row">
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-01.jpg" alt="">
+          <article class="span4 post revealator-slideright revealator-delay2 revealator-once"> <img class="img-news" src="images/orig-(1).jpg" alt="">
             <div class="inside">
-              <p class="post-date"><i class="icon-calendar"></i> March 17, 2013</p>
-              <h2>A girl running on a road</h2>
+              <p class="post-date"><i class="icon-calendar"></i> 19 марта, 2018</p>
+              <h2>Инструкция: в такси с животным</h2>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
+                <p>Рассказываем, как избежать недопонимания с водителем и сделать путешествие комфортным, если вы вызываете такси со спутником — пушистым, пернатым или чешуйчатым. Эти советы пригодятся не только для такси &hellip;</p>
+                <a href="https://taxi.yandex.ru/blog/v-taksi-s-zhivotnym" class="more-link">подробнее</a> </div>
             </div>
             <!-- /.inside -->
           </article>
           <!-- /.span4 -->
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-02.jpg" alt="">
+          <article class="span4 post revealator-zoomin revealator-delay1 revealator-once"> <img class="img-news" src="images/orig (1).jpg" alt="">
             <div class="inside">
-              <p class="post-date">February 28, 2013</p>
-              <h2>A bear sleeping on a tree</h2>
+              <p class="post-date">07 марта, 2018</p>
+              <h2>Хорошо человек водит или плохо, от пола не зависит</h2>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
+                <p>В таксопарках-партнёрах Яндекс.Такси работают десятки тысяч женщин-водителей. За последний год их стало в два раза больше. Согласно нашей статистике, женщины на 5% чаще получают хорошие оценки, чем их коллеги-мужчины&hellip;</p>
+                <a href="https://taxi.yandex.ru/blog/female-drivers" class="more-link">подробнее</a> </div>
             </div>
             <!-- /.inside -->
           </article>
           <!-- /.span4 -->
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-03.jpg" alt="">
+          <article class="span4 post revealator-slideleft revealator-delay2 revealator-once"> <img class="img-news" src="images/orig.png" alt="">
             <div class="inside">
-              <p class="post-date">February 06, 2013</p>
-              <h2>A Panda playing with his baby</h2>
+              <p class="post-date">08 февраля, 2018</p>
+              <h2>Дети в такси</h2>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
+                <p>За последние полгода — с июля по декабрь 2018 года — количество заказов нашей услуги детского такси по всей России выросло в два раза. Каждый день десятки тысяч родителей вызывают такси, чтобы отправиться куда-то вместе с детьми.Это особые поездки: когда в салоне ребёнок &hellip;</p>
+                <a href="https://taxi.yandex.ru/blog/kids" class="more-link">подробнее</a> </div>
             </div>
             <!-- /.inside -->
           </article>
           <!-- /.span4 -->
         </div>
         <!-- /.row -->
-        <a href="#" class="btn btn-large">Go to our blog</a> </div>
+        <a href="https://taxi.yandex.ru/blog" class="btn btn-large">Блог</a> </div>
       <!-- /.container -->
     </section>
     <hr>
     <!--******************** Team Section ********************-->
     <section id="team" class="single-page scrollblock">
       <div class="container">
-        <div class="align"><i class="icon-group-circled"></i></div>
-        <h1>Meet the team</h1>
+        <div class="align revealator-zoomin revealator-delay1 revealator-once"><img src="images/team.png" alt=""></div>
+        <h1>Команда</h1>
         <!-- Five columns -->
         <div class="row">
-          <div class="span2 offset1">
+          <div class="span2 offset1 revealator-rotateleft revealator-delay1 revealator-once">
             <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-1.jpg" alt=""> </div>
-            <h3>Andrew</h3>
-            <div class="job-position">web designer</div>
+            <h3>Анатолий</h3>
+            <div class="job-position">директор</div>
           </div>
           <!-- ./span2 -->
-          <div class="span2">
+          <div class="span2 revealator-rotateleft revealator-delay1 revealator-once">
             <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-            <h3>Stephen</h3>
-            <div class="job-position">web developer</div>
+            <h3>Инна</h3>
+            <div class="job-position">бухгалтер</div>
           </div>
           <!-- ./span2 -->
-          <div class="span2">
+          <div class="span2 revealator-rotateleft revealator-delay1 revealator-once">
             <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-3.jpg" alt=""> </div>
-            <h3>Maria</h3>
-            <div class="job-position">graphic designer</div>
+            <h3>Александр</h3>
+            <div class="job-position">web developer & механик</div>
           </div>
           <!-- ./span2 -->
-          <div class="span2">
+          <div class="span2 revealator-rotateleft revealator-delay1 revealator-once">
             <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-4.jpg" alt=""> </div>
-            <h3>John</h3>
-            <div class="job-position">project manager</div>
+            <h3>Светлана</h3>
+            <div class="job-position">юрист</div>
           </div>
           <!-- ./span2 -->
-          <div class="span2">
+          <div class="span2 revealator-rotateleft revealator-delay1 revealator-once">
             <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-            <h3>Ashton</h3>
-            <div class="job-position">real owner</div>
+            <h3>Иван</h3>
+            <div class="job-position">лучший водитель</div>
           </div>
           <!-- ./span2 -->
         </div>
         <!-- /.row -->
-        <div class="row">
-          <div class="span10 offset1">
-            <hr class="featurette-divider">
-            <div class="featurette">
-              <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2>
-              <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-              <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-              <p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
-            </div>
-            <!-- /.featurette -->
-            <hr class="featurette-divider">
-          </div>
-          <!-- .span10 -->
-        </div>
+
         <!-- /.row -->
       </div>
       <!-- /.container -->
@@ -343,8 +334,8 @@
     <!--******************** Contact Section ********************-->
     <section id="contact" class="single-page scrollblock">
       <div class="container">
-        <div class="align"><i class="icon-mail-2"></i></div>
-        <h1>Contact us now!</h1>
+        <div class="align revealator-zoomout revealator-delay1 revealator-once"><img src="images/send.png" alt=""></div>
+        <h1>Отправить заявку</h1>
         <div class="row">
           <div class="span12">
             <div class="cform" id="theme-form">
@@ -371,7 +362,7 @@
                     </span> </div>
                 </div>
                 <div>
-                  <input type="submit" value="Send message" class="cform-submit pull-left">
+                  <input type="submit" value="Отправить" class="cform-submit pull-left">
                 </div>
                 <div class="cform-response-output"></div>
               </form>
@@ -386,8 +377,16 @@
     <hr>
     <div class="footer-wrapper">
       <div class="container">
-        <footer>
-          <small>&copy; 2013 Inbetwin Network. All rights reserved.</small>
+        <footer style="height: 100px;">
+          <div class="wrapper" style="bottom:0;">
+  <ul>
+    <li class="facebook"><i class="fa fa-facebook " aria-hidden="true"></i></li>
+    <li class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+    <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+    <li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+    <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+  </ul>
+            </div>
         </footer>
       </div>
       <!-- ./container -->
@@ -398,17 +397,6 @@
     <script type="text/javascript" src="js/site.js"></script>
     
     <!--ANALYTICS CODE-->
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-29231762-1']);
-	  _gaq.push(['_setDomainName', 'dzyngiri.com']);
-	  _gaq.push(['_trackPageview']);
-	
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+
     </body>
     </html>
